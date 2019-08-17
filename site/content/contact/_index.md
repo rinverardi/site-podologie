@@ -1,19 +1,14 @@
 ---
-title: "Contact"
-logo: "/img/logo.svg"
+title: Kontakt
+logo: /img/logo.svg
 contact_entries:
-  - heading: Location
-    text: "3153 Lynn Avenue, South San Francisco, California 94080"
-  - heading: Working hours
-    text: "Monday – Saturday: 9AM – 7PM We’re closed on Sundays"
+  - heading: Adresse
+    text: |-
+      Podologie Inverardi<br>
+      St. Georgenstrasse 98<br>
+      9011 St. Gallen<br>
+      078 250 91 91
+  - heading: Öffnungszeiten
+    text: Montag bis Freitag Termin nach Vereinbarung
 ---
-
-We’d love to get in touch with you and hear your ideas and
-questions. We strive to grow and improve constantly and your feedback
-is valuable for us.
-
-<h3 class="f4 b lh-title mb2">How can I get…?</h3>
-
-You can also use the form below for any inquiries about coffee
-availability, monthly subscriptions and scheduling a 1-on-1 session
-with our baristas. Don’t be shy, drop us a line!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
