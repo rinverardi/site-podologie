@@ -41,7 +41,7 @@
      id="namedview3000"
      showgrid="false"
      inkscape:zoom="59.625"
-     inkscape:cx="12"
+     inkscape:cx="7.0524109"
      inkscape:cy="12"
      inkscape:window-x="0"
      inkscape:window-y="49"
@@ -66,9 +66,10 @@
        style="fill:#b5b8bf">
       <path
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:icons;-inkscape-font-specification:icons;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#536c53;fill-opacity:1;stroke:none;stroke-width:0.05514636"
-         d="m 362.05563,1115.4529 -0.8569,0.7784 0.8569,0.7827 0.1034,-0.1041 -0.65211,-0.6016 h 1.82739 v -0.1517 h -1.83157 l 0.65629,-0.6016 z"
+         d="m 362.23406,1115.4529 -0.8569,0.7784 0.8569,0.7827 0.1034,-0.1041 -0.65211,-0.6016 h 1.47052 v -0.1517 h -1.4747 l 0.65629,-0.6016 z"
          id="path2992"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccccc" />
     </g>
   </g>
 </svg>
