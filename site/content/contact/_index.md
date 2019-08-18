@@ -1,6 +1,6 @@
 ---
 title: Kontakt
-logo: /img/logo.svg
+logo: /img/logo-big.svg
 contact_entries:
   - heading: Adresse
     text: Podologie Inverardi
