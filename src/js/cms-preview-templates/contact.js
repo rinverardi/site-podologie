@@ -3,12 +3,17 @@ import React from "react";
 const ContactEntry = ({heading, text}) =>
   <div>
     <h4 className="f4 b lh-title mb2 primary">{ heading }</h4>
-    <p>{ text }</p>
+    <p>
+      { text }<br>
+      { detail0 }<br>
+      { detail1 }<br>
+      { detail2 }
+    </p>
   </div>;
 
 const ContactEntries = ({data}) => data && data.length > 0
     ? <div className="flex-ns mb3">
-      {data.map(({heading, text}) => <ContactEntry heading={heading} text={text} />)}
+      {data.map(({heading, text}) => <ContactEntry heading={heading} text={text} detail0={detail0} detail1={detail1} detail2={detail2}/>)}
     </div>
     : "";
 
