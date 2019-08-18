@@ -1,12 +1,14 @@
 <nav class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative">
 
 	<!-- Up -->
+        {{ if !.IsHome }}
 	<a href="/" class="ph3 db mr4 h-100 w2 flex-none">
 		<img src="/img/up.svg" alt="Up" class="br0 db mb0 w-100"/>
 	</a>
+        {{ end }}
 
 	<!-- Primary Nav -->
-	<ul class="flex b grey-3">
+	<ul clas="flex b grey-3">
 		<li><a href="/products" class="pa3 no-underline db">Produkte</a></li>
 
 		<li><a href="/values" class="pa3 no-underline db">Werte</a></li>
