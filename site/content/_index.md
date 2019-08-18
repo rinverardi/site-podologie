@@ -1,6 +1,6 @@
 ---
-title: Lorem Ipsum
-subtitle: Dolor sit amet
+title: Neueröffnung
+subtitle: am 2. September 2009
 image: /img/home-jumbotron.jpg
 blurb:
   heading: Lorem Ipsum
