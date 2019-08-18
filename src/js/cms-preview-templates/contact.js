@@ -13,7 +13,7 @@ const ContactEntry = ({heading, text, detail0, detail1, detail2}) =>
 
 const ContactEntries = ({data}) => data && data.length > 0
     ? <div className="flex-ns mb3">
-      {data.map(({heading, text}) => <ContactEntry heading={heading} text={text} detail0={detail0} detail1={detail1} detail2={detail2}/>)}
+      {data.map(({heading, text, detail0, detail1, detail2}) => <ContactEntry heading={heading} text={text} detail0={detail0} detail1={detail1} detail2={detail2}/>)}
     </div>
     : "";
 
