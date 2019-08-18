@@ -4,9 +4,9 @@ const ContactEntry = ({heading, text}) =>
   <div>
     <h4 className="f4 b lh-title mb2 primary">{ heading }</h4>
     <p>
-      { text }<br>
-      { detail0 }<br>
-      { detail1 }<br>
+      { text }<br/>
+      { detail0 }<br/>
+      { detail1 }<br/>
       { detail2 }
     </p>
   </div>;
