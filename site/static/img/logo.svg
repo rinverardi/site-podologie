@@ -7,12 +7,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 72 24"
+   viewBox="0 0 150 10"
    version="1.1"
    id="svg976"
    sodipodi:docname="logo.svg"
-   width="72"
-   height="24"
+   width="150"
+   height="10"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata980">
@@ -39,9 +39,9 @@
      inkscape:window-height="1677"
      id="namedview978"
      showgrid="false"
-     inkscape:zoom="15.0875"
-     inkscape:cx="23.663555"
-     inkscape:cy="17.846088"
+     inkscape:zoom="45.254834"
+     inkscape:cx="115.89007"
+     inkscape:cy="0.50052632"
      inkscape:window-x="0"
      inkscape:window-y="49"
      inkscape:window-maximized="1"
@@ -71,30 +71,26 @@
        d="m 102.913,24 c -0.276,0 -0.5,-0.224 -0.5,-0.5 v -23 c 0,-0.276 0.224,-0.5 0.5,-0.5 h 5.293 c 0.276,0 0.5,0.224 0.5,0.5 v 23 c 0,0.276 -0.224,0.5 -0.5,0.5 z"
        inkscape:connector-curvature="0" />
   </defs>
-  <g
-     id="g1544"
-     transform="matrix(1.0531235,0,0,1.0531235,-4.545253,-0.63748162)">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.8056736px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#536c53;fill-opacity:1;stroke:none;stroke-width:0.09514184"
-       x="3.1792355"
-       y="9.5882044"
-       id="text1771"><tspan
-         sodipodi:role="line"
-         id="tspan1769"
-         x="3.1792355"
-         y="9.5882044"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.41851521px;font-family:'Quicksand Light';-inkscape-font-specification:'Quicksand Light, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#536c53;fill-opacity:1;stroke-width:0.09514184">PODOLOGIE</tspan></text>
-    <text
-       id="text6114"
-       y="23.18852"
-       x="3.3122635"
-       style="font-style:normal;font-weight:normal;font-size:3.8056736px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#536c53;fill-opacity:1;stroke:none;stroke-width:0.09514184"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:13.4734211px;font-family:'Quicksand Medium';-inkscape-font-specification:'Quicksand Medium, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#536c53;fill-opacity:1;stroke-width:0.09514184"
-         y="23.18852"
-         x="3.3122635"
-         id="tspan6112"
-         sodipodi:role="line">INVERARDI</tspan></text>
-  </g>
+  <text
+     id="text1771"
+     y="9.5773802"
+     x="-1.3078229"
+     style="font-style:normal;font-weight:normal;font-size:4.00784445px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#536c53;fill-opacity:1;stroke:none;stroke-width:0.10019611"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:13.0782299px;font-family:'Quicksand Light';-inkscape-font-specification:'Quicksand Light, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#536c53;fill-opacity:1;stroke-width:0.10019611"
+       y="9.5773802"
+       x="-1.3078229"
+       id="tspan1769"
+       sodipodi:role="line">PODOLOGIE</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:4.00784445px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#536c53;fill-opacity:1;stroke:none;stroke-width:0.10019611"
+     x="77.053665"
+     y="9.968792"
+     id="text6114"><tspan
+       sodipodi:role="line"
+       id="tspan6112"
+       x="77.053665"
+       y="9.968792"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.18917656px;font-family:'Quicksand Medium';-inkscape-font-specification:'Quicksand Medium, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#536c53;fill-opacity:1;stroke-width:0.10019611">INVERARDI</tspan></text>
 </svg>
