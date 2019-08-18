@@ -54,6 +54,15 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
+              - label: Detail 1/3
+                name: detail0
+                widget: text
+              - label: Detail 2/3
+                name: detail1
+                widget: text
+              - label: Detail 3/3
+                name: detail2
+                widget: text
       - file: "site/content/products/_index.md"
         label: "Products Page"
         name: "products"
