@@ -1,6 +1,6 @@
 import React from "react";
 
-const ContactEntry = ({heading, text}) =>
+const ContactEntry = ({heading, text, detail0, detail1, detail2}) =>
   <div>
     <h4 className="f4 b lh-title mb2 primary">{ heading }</h4>
     <p>
