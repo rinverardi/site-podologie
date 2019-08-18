@@ -1,6 +1,6 @@
 ---
-title: Neueröffnung
-subtitle: am 2. September 2009
+title: Podologie Inverardi
+subtitle: Neueröffnung 2. September 2009
 image: /img/home-jumbotron.jpg
 blurb:
   heading: Lorem Ipsum
