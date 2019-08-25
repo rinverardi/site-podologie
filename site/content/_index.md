@@ -6,7 +6,10 @@ blurb:
   buttonLink: about
   buttonText: Mehr wissen
   heading: Über mich
+  heading2: Über mich
   text: >-
+    Nach über 20-jähriger Berufserfahrung in verschiedenen Podologiepraxen freue ich mich, Sie in meiner Podologiepraxis in St. Gallen, St. Georgen begrüssen zu dürfen.
+  text2: >-
     Nach über 20-jähriger Berufserfahrung in verschiedenen Podologiepraxen freue ich mich, Sie in meiner Podologiepraxis in St. Gallen, St. Georgen begrüssen zu dürfen.
 intro:
   heading: ' Lorem Ipsum'
