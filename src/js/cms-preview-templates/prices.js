@@ -18,7 +18,7 @@ const MediaBlock = ({heading, text, imageUrl, reverse}) => {
   </div>;
 };
 
-export default class ValuesPreview extends React.Component {
+export default class PricesPreview extends React.Component {
   render() {
     const {entry, getAsset} = this.props;
     

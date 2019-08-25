@@ -1,5 +1,5 @@
 ---
-title: Meine Werte
+title: Meine Preise
 image: /img/about-jumbotron.jpg
 values:
   - heading: Shade-grown coffee
