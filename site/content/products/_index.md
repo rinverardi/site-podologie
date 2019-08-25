@@ -1,5 +1,5 @@
 ---
-title: Meine Produkte
+title: Meine Leistungen
 image: /img/products-jumbotron.jpg
 heading: What we offer
 description: >-
