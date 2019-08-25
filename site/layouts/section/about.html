@@ -7,7 +7,7 @@
 <div class="mw7 center ph3 pt4">
 
   {{ range $index, $element := .Params.about_entries }}
-    {{ partial "text" $element }}
+    {{ partial "about_entry" $element }}
   {{ end }}
 
 </div>
