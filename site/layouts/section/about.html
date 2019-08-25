@@ -5,11 +5,7 @@
 <div class="mw7 center ph3 pt4">
 
   {{ range $index, $element := .Params.about_entries }}
-    {{ if modBool $index 2 }}
-      {{ partial "media-block" $element }}
-    {{ else }}
-      {{ partial "media-block-reverse" $element }}
-    {{ end }}
+    {{ partial "text" $element }}
   {{ end }}
 
 </div>
