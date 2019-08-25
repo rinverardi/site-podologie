@@ -1,7 +1,7 @@
 ---
 title: Meine Preise
 image: /img/about-jumbotron.jpg
-values:
+prices:
   - heading: Shade-grown coffee
     imageUrl: /img/about-shade-grown.jpg
     text: >
