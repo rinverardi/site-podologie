@@ -3,8 +3,8 @@ title: Podologie Inverardi
 subtitle: Neueröffnung 2. September 2009
 image: /img/home-jumbotron.jpg
 blurb:
-  buttonLink=about
-  buttonText=Mehr wissen
+  buttonLink: about
+  buttonText: Mehr wissen
   heading: Über mich
   text: >-
     Nach über 20-jähriger Berufserfahrung in verschiedensten Podologiepraxen, freue ich mich, Sie in meiner Podologiepraxis in St. Gallen, St. Georgen begrüssen zu dürfen.
