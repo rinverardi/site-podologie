@@ -29,7 +29,7 @@ export default class PricesPreview extends React.Component {
       image = window.parent.location.protocol + "//" + window.parent.location.host + image;
     }
     
-    const entryValues = entry.getIn(["data", "values"]);
+    const entryValues = entry.getIn(["data", "prices"]);
     const values = entryValues ? entryValues.toJS() : [];
     
     return <div>
