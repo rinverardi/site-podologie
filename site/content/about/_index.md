@@ -1,6 +1,6 @@
 ---
 title: Über mich
-image: /img/about-jumbotron.jpg
+image: /img/home-jumbotron.jpg
 about_entries:
   - heading: Patrizia Inverardi
     imageUrl: /img/void.svg
