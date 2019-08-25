@@ -1,6 +1,6 @@
 ---
 title: Podologie Inverardi
-subtitle: Neueröffnung 2. September 2009
+subtitle: Neueröffnung 2. September 2019
 image: /img/home-jumbotron.jpg
 blurb:
   button_link: about
