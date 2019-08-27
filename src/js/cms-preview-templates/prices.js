@@ -4,10 +4,12 @@ import { List } from 'immutable';
 import Jumbotron from "./components/jumbotron";
 
 const Price = ({heading, text, price}) => {
-  return <h2 class="b bf2 lh-title p4">{heading}</h2>
-  <div className="center flex-l mb1">
-    <p className="w-70-l">{text}</p>
-    <p className="w-30-">{price}</p>
+  return <div>
+    <h2 class="b bf2 lh-title p4">{heading}</h2>
+    <div className="center flex-l mb1">
+      <p className="w-70-l">{text}</p>
+      <p className="w-30-">{price}</p>
+    </div>
   </div>;
 };
 
