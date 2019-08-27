@@ -3,18 +3,11 @@ import { List } from 'immutable';
 
 import Jumbotron from "./components/jumbotron";
 
-const MediaBlock = ({heading, text, imageUrl, reverse}) => {
-  const imageContainerClassName = reverse
-    ? "ph3-m w-50-m"
-    : "ph3-m w-50-m order-last-m";
-  return <div className="flex-m mhn3-m mb4">
-    <div className={imageContainerClassName}>
-      <img src={imageUrl} alt="" className="db mb2" />
-    </div>
-    <div className="ph3-m w-50-m">
-      <h3 className="f3 b lh-title mb1">{heading}</h3>
-      <p>{text}</p>
-    </div>
+const Price = ({heading, text, price}) => {
+  return <h2 class="b bf2 lh-title p4">{heading}</h2>
+  <div className="center flex-l mb1">
+    <p className="w-70-l">{text}</p>
+    <p className="w-30-">{price}</p>
   </div>;
 };
 
@@ -35,11 +28,9 @@ export default class PricesPreview extends React.Component {
     return <div>
       <Jumbotron image={image} title={entry.getIn(["data", "title"])} />
       <div className="bg-off-white pv4">
-        <div className="mw7 center ph3 pt4">
-          {values.map(({text, heading, imageUrl}, i) =>
-            <MediaBlock key={i} text={text} heading={heading} imageUrl={imageUrl} reverse={i % 2 === 0} />
-          )}
-        </div>
+        {values.map(({heading, text, price}, i) =>
+          <Price key={i} heading={heading} text={text} price={price} />
+        )}
       </div>
     </div>;
   }
