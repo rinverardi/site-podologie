@@ -1,6 +1,14 @@
 ---
 title: Meine Preise
 image: /img/home-jumbotron.jpg
-prices: []
+prices:
+  - heading: Fussbehandlung
+    price: CHF 97
+    text: Behandlung normal
+  - heading: ''
+    price: CHF 85
+    text: Behandlung klein
+  - price: CHF 110
+    text: Behandlung gross
 ---
 
