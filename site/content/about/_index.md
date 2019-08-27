@@ -1,12 +1,6 @@
 ---
 title: Über mich
 image: /img/home-jumbotron.jpg
-blurb:
-  heading: Patrizia Inverardi
-  text: >-
-    Nach über 20-jähriger Berufserfahrung in verschiedenen Podologiepraxen freue
-    ich mich, Sie in meiner Podologiepraxis in St. Gallen, St. Georgen begrüssen
-    zu dürfen.
 about_entries:
   - heading: Ausbildung
     imageUrl: /img/void.svg
