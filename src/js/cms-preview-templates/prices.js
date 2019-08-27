@@ -6,9 +6,9 @@ import Jumbotron from "./components/jumbotron";
 const Price = ({heading, text, price}) => {
   return <div>
     <h2 class="b bf2 lh-title p4">{heading}</h2>
-    <div className="center flex mb1">
-      <p className="w-60">{text}</p>
-      <p className="w-40">{price}</p>
+    <div className="center flex mb3">
+      <span className="w-60">{text}</span>
+      <span className="w-40">{price}</span>
     </div>
   </div>;
 };
