@@ -101,6 +101,7 @@ collections: # A list of collections the CMS should be able to edit
             name: prices
             widget: list
             fields:
-              - {label: Heading, name: heading, widget: string}
+              - {label: Heading, name: heading, required: false, widget: string}
               - {label: Text, name: text, widget: text}
-              - {label: Image, name: imageUrl, widget: image}
+              - {label: Price, name: text, widget: text}
+              - {label: Image, name: imageUrl, required: false, widget: image}
