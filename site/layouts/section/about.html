@@ -2,7 +2,7 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
 
-<div class="mw7 center ph3 pv4">
+<div class="mw7 center ph3 pt4">
 
   {{ range $index, $element := .Params.about_entries }}
     {{ partial "about_entry" $element }}
