@@ -14,7 +14,7 @@ prices:
     price: ''
     text: Eingewachsener Zehennagel
   - text: Clavus (Hühnerauge)
-  - price: CHF 45 bis CHF 75
+  - price: CHF 45 bis 75
     text: Hornhautbehandlung
   - heading: Orthonoyxie
     price: CHF 45
@@ -25,7 +25,7 @@ prices:
     text: U-Spange
   - heading: Nagelprothetik
     text: Überzug
-  - price: CHF 40 bis CHF 65
+  - price: CHF 40 bis 65
     text: Nagelersatz ganz/teilweise
   - heading: Zehenorthese
     text: Zehenkeil
