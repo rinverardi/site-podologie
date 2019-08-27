@@ -7,8 +7,8 @@ const Price = ({heading, text, price}) => {
   return <div>
     <h2 class="b bf2 lh-title p4">{heading}</h2>
     <div className="center flex mb1">
-      <p className="w-70">{text}</p>
-      <p className="w-30">{price}</p>
+      <p className="w-60">{text}</p>
+      <p className="w-40">{price}</p>
     </div>
   </div>;
 };
