@@ -10,5 +10,8 @@ prices:
     text: Behandlung klein
   - price: CHF 110
     text: Behandlung gross
+  - heading: Teilbehandlung
+    price: CHF 45 – CHF 75
+    text: Eingewachsener Zehennagel
 ---
 
