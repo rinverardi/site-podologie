@@ -26,16 +26,14 @@ prices:
   - heading: Nagelprothetik
     text: Überzug
   - price: CHF 40 – CHF 65
-    text: Nagelersatz ganz oder teilweise
+    text: Nagelersatz ganz/teilweise
   - heading: Zehenorthese
     text: Zehenkeil
-  - price: ''
-    text: Zehenkuppenheber
   - price: CHF 40 – CHF 75
-    text: ganzer Nagelersatz
+    text: Zehenkuppenheber
   - heading: Massage
     price: CHF 65
-    text: klassische Fuss- und Unterschenkelmassage
+    text: klassische Fuss-/Unterschenkelmassage
   - heading: Nachkontrolle
     price: ''
     text: nach Aufwand
