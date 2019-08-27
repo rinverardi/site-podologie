@@ -26,11 +26,11 @@ export default class AboutPreview extends React.Component {
     
     return <div>
       <Jumbotron image={image} title={entry.getIn(["data", "title"])} />
-      <div className="bg-off-white pv4">
-        {values.map(({text, heading, imageUrl}, i) =>
+      {values.map(({text, heading, imageUrl}, i) =>
+        <div className="bg-off-white pv4">
           <AboutEntry key={i} text={text} heading={heading} />
-        )}
-      </div>
+        </div>
+      )}
     </div>;
   }
 }
