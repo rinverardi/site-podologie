@@ -11,10 +11,11 @@ prices:
   - price: CHF 110
     text: Behandlung gross
   - heading: Teilbehandlung
-    price: CHF 45 – CHF 75
+    price: ''
     text: Eingewachsener Zehennagel
   - text: Clavus (Hühnerauge)
-  - text: Hornhautbehandlung
+  - price: CHF 45 – CHF 75
+    text: Hornhautbehandlung
   - heading: Orthonoyxie
     price: CHF 45
     text: Klebespangen
@@ -22,5 +23,21 @@ prices:
     text: Flachspangen
   - price: CHF 90
     text: U-Spange
+  - heading: Nagelprothetik
+    text: Überzug
+  - price: CHF 40 – CHF 65
+    text: Nagelersatz ganz oder teilweise
+  - heading: Zehenorthese
+    text: Zehenkeil
+  - price: ''
+    text: Zehenkuppenheber
+  - price: CHF 40 – CHF 75
+    text: ganzer Nagelersatz
+  - heading: Massage
+    price: CHF 65
+    text: klassische Fuss- und Unterschenkelmassage
+  - heading: Nachkontrolle
+    price: ''
+    text: nach Aufwand
 ---
 
