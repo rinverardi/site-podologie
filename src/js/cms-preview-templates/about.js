@@ -5,7 +5,7 @@ import Jumbotron from "./components/jumbotron";
 
 const AboutEntry = ({heading, text}) => {
   return <div className="center flex-l mhn1-l mw7">
-    <h2 className="b f2 lh-title mb2 w-40-l">{heading}</h3>
+    <h2 className="b f2 lh-title mb2 w-40-l">{heading}</h2>
     <p className="mb0 w-60-l">{text}</p>
   </div>;
 };
