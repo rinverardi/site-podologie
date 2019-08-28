@@ -11,7 +11,6 @@ blurb:
     ich mich, Sie in meiner Podologiepraxis in St. Gallen, St. Georgen begrüssen
     zu dürfen.
 products:
-  heading: Meine Leistungen
   - image: img/illustrations-coffee.svg
     text: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum
