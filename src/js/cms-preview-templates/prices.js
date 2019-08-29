@@ -4,7 +4,7 @@ import { List } from 'immutable';
 import Jumbotron from "./components/jumbotron";
 
 const Note = ({text}) => {
-  return <p>{price}</p>;
+  return <p>{text}</p>;
 };
 
 const Price = ({heading, text, price}) => {
