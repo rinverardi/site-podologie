@@ -1,10 +1,6 @@
 ---
 title: Meine Preise
 image: /img/home-jumbotron.jpg
-notes:
-  - text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  - text: Dolor sed viverra ipsum nunc aliquet bibendum enim.
-  - text: Etiam tempor orci eu lobortis elementum nibh tellus molestie. Neque egestas congue quisque egestas. Egestas integer eget aliquet nibh praesent tristique.
 prices:
   - heading: Fussbehandlung
     price: CHF 97
@@ -41,5 +37,13 @@ prices:
   - heading: Nachkontrolle
     price: ''
     text: nach Aufwand
+notes:
+  - text: >-
+      Bitte sagen Sie Konsultationen, die nicht eingehalten werden können, 24
+      Stunden im Voraus ab. Sie ersparen sich damit deren Berechnung.
+  - text: >-
+      Die Grundversicherungen der Krankenkassen übernehmen podologische
+      Behandlungen nicht. Einige Zusatzversicherungen übernehmen die Kosten bei
+      Diabetikern.
 ---
 
