@@ -99,3 +99,8 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Text, name: text, widget: text}
               - {label: Price, name: price, required: false, widget: text}
               - {label: Image, name: imageUrl, required: false, widget: image}
+          - label: Notes
+            name: notes
+            widget: list
+            fields:
+              - {label: Text, name: text, widget: text}
