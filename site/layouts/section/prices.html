@@ -13,7 +13,7 @@
 <div class="center mw7 pb4 ph3">
 
   {{ range $index, $element := .Params.notes }}
-    <p>{{ .element.text }}</p>
+    <p>{{ partial "note" $element }}</p>
   {{ end }}
 
 </div>
