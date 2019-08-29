@@ -1,6 +1,10 @@
 ---
 title: Meine Preise
 image: /img/home-jumbotron.jpg
+notes:
+  - text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - text: Dolor sed viverra ipsum nunc aliquet bibendum enim.
+  - text: Etiam tempor orci eu lobortis elementum nibh tellus molestie. Neque egestas congue quisque egestas. Egestas integer eget aliquet nibh praesent tristique.
 prices:
   - heading: Fussbehandlung
     price: CHF 97

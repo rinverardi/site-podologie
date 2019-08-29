@@ -2,10 +2,18 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
 
-<div class="mw7 center ph3 pb4">
+<div class="center mw7 pb4 ph3">
 
   {{ range $index, $element := .Params.prices }}
     {{ partial "price" $element }}
+  {{ end }}
+
+</div>
+
+<div class="center mw7 pb4 ph3">
+
+  {{ range $index, $element := .Params.notes }}
+    <p>{{ .element.text }}</p>
   {{ end }}
 
 </div>
