@@ -3,6 +3,10 @@ import { List } from 'immutable';
 
 import Jumbotron from "./components/jumbotron";
 
+const Note = ({text}) => {
+  return <p>{price}</p>;
+};
+
 const Price = ({heading, text, price}) => {
   return <div>
     <h2 class="b bf2 lh-title p4">{heading}</h2>
@@ -23,15 +27,23 @@ export default class PricesPreview extends React.Component {
     if (image && !image.fileObj) {
       image = window.parent.location.protocol + "//" + window.parent.location.host + image;
     }
-    
-    const entryValues = entry.getIn(["data", "prices"]);
-    const values = entryValues ? entryValues.toJS() : [];
+   
+    const notes = entry.getIn(["data", "notes"]);
+    const notesArray = notes ? notes.toJS() : [];
+ 
+    const prices = entry.getIn(["data", "prices"]);
+    const pricesArray = prices ? prices.toJS() : [];
     
     return <div>
       <Jumbotron image={image} title={entry.getIn(["data", "title"])} />
       <div className="bg-off-white pv4">
-        {values.map(({heading, text, price}, i) =>
+        {pricesArray.map(({heading, text, price}, i) =>
           <Price key={i} heading={heading} text={text} price={price} />
+        )}
+      </div>
+      <div className="bg-off-white pv4">
+        {notesArray.map(({text}, i) =>
+          <Note key={i} text={text} />
         )}
       </div>
     </div>;
