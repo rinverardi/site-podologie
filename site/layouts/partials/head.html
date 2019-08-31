@@ -1,8 +1,8 @@
 <head>
   {{ if .IsHome }}
-    <title>{{ .Title }}</title>
+    <title>{{ .Site.Title }}</title>
   {{ else }}
-    <title>{{ .Title }} | {{ .Site.Title }</title>
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
   {{ end }}
 
   {{ $stylesheet := .Site.Data.webpack.main }}
