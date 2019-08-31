@@ -28,6 +28,20 @@ services:
     text: (Hühneraugen)
   - heading: Behandeln von Unguis incarnatus
     text: (eingewachsene Nägel)
+  - heading: Orthonoyxie
+    text: (Spangentechnik bei eingewachsenen Nägeln)
+  - heading: Nagelprothetik
+    text: '(künstlicher Ersatz für brüchige, eingerissene oder traumatisierte Nägeln)'
+  - heading: Zehenorthesen
+    text: (individuell angepasste Silikonentlastungen bei Druckstellen)
+  - heading: Klassische Fuss- und Unterschenkelmassage
+  - heading: Individuelle Fussberatung
+  - heading: Nägel lackieren
+    text: >-
+      (aus hygienischen Gründen muss der Nagellack in der Praxis gekauft oder
+      selber mitgebracht werden)
+  - heading: Verkauf von Geschenkgutscheinen
+  - heading: Verkauf von Pflegeprodukten und Konfektionsartikeln
 testimonials: []
 full_image: ''
 ---
