@@ -9,6 +9,6 @@
   font-weight: var(--bold-font-weight);
   color: var(--primary);
   text-align: center;
-  box-shadow: inset 0 0 0 2px var(--primary);
+  box-shadow: inset 0 0 0 3px var(--primary);
   transition: var(--hover-transition);
 }
