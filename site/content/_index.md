@@ -1,5 +1,5 @@
 ---
-title: Podologie Inverardi
+title: Podologie Inverardi, St. Gallen-St. Georgen
 subtitle: ''
 image: /img/home-jumbotron.jpg
 blurb:
