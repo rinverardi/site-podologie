@@ -1,29 +1,28 @@
 {{ define "main" }}
+  {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+  {{ partial "4-up" .Params.intro }}
 
-{{ partial "4-up" .Params.intro }}
-
-{{ if .Params.main.heading }}
-  {{ with .Params.main }}
-    <div class="mw7 center">
-      <div class="mw6 ph3 mb3">
-        <h3 class="f3 b lh-title mb2">{{ .heading }}</h3>
-        <p>{{ .description }}</p>
+  {{ if .Params.main.heading }}
+    {{ with .Params.main }}
+      <div class="mw7 center">
+        <div class="mw6 ph3 mb3">
+          <h3 class="f3 b lh-title mb2">{{ .heading }}</h3>
+          <p>{{ .description }}</p>
+        </div>
       </div>
-    </div>
+    {{ end }}
+
+    {{ partial "image-grid" . }}
   {{ end }}
 
-  {{ partial "image-grid" . }}
-  {{ end }}
-{{ end }}
+  <div class="pb4">
+    {{ range .Params.testimonials }}
+      {{ partial "blockquote" . }}
+    {{ end }}
+  </div>
 
-<div class="pb4">
-  {{ range .Params.testimonials }}
-    {{ partial "blockquote" . }}
+  {{ if .Params.full_image }}
+    <img src="{{ .Params.full_image }}" alt="" class="db w-100">
   {{ end }}
-</div>
-
-{{ if .Params.full_image }}
-  <img src="{{ .Params.full_image }}" alt="" class="db w-100">
 {{ end }}
