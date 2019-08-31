@@ -3,6 +3,13 @@ import format from "date-fns/format";
 
 import Jumbotron from "./components/jumbotron";
 
+const Service = ({heading, text}) => {
+  return <div>
+    <h2 class="b bf2 lh-title p4">{heading}</h2>
+    <div className="center flex mb3">{text}</div>
+  </div>;
+};
+
 export default class PostPreview extends React.Component {
   render() {
     const {entry, getAsset} = this.props;
@@ -12,6 +19,9 @@ export default class PostPreview extends React.Component {
     if (image && !image.fileObj) {
       image = window.parent.location.protocol + "//" + window.parent.location.host + image;
     }
+
+    const services = entry.getIn(["data", "services"]);
+    const servicesArray = services ? services.toJS() : [];
 
     return <div>
       <Jumbotron image={image} title={entry.getIn(["data", "title"])} />
@@ -59,6 +69,12 @@ export default class PostPreview extends React.Component {
             </div>
           </div>
         }
+
+        <div className="bg-off-white pv4">
+          {servicesArray.map(({heading, text}, i) =>
+            <Service key={i} heading={heading} text={text} />
+          )}
+        </div>
 
         <div className="pb4">
           {(entry.getIn(['data', 'testimonials']) || []).map((testimonial, index) => <div className="center mb3 ph3" key={index}>
