@@ -36,29 +36,27 @@ export default class PostPreview extends React.Component {
         }
       </div>
 
-      <div className="mw7 center">
-        <div className="mw6 ph3 mb3">
-          <h3 className="f3 b lh-title mb2">{entry.getIn(["data", "main", "heading"])}</h3>
-          <p>{entry.getIn(["data", "main", "description"])}</p>
-        </div>
-      </div>
-
-      <div className="mw7 center ph3 pv4">
-
-        <div className="flex flex-wrap mhn1">
-          <div className="w-100 w-50-ns ph1-ns">
-            <img src={getAsset(entry.getIn(["data", "main", "image1", "image"]))}/>
-          </div>
-
-          <div className="w-100 w-50-ns ph1-ns">
-            <img src={getAsset(entry.getIn(["data", "main", "image2", "image"]))}/>
-          </div>
-
-          <div className="w-100 ph1-ns">
-            <img src={getAsset(entry.getIn(["data", "main", "image3", "image"]))}/>
+      {entry.getIn(["data", "main", "heading"]) &&
+        <div className="mw7 center">
+          <div className="mw6 ph3 mb3">
+            <h3 className="f3 b lh-title mb2">{entry.getIn(["data", "main", "heading"])}</h3>
+            <p>{entry.getIn(["data", "main", "description"])}</p>
           </div>
         </div>
-      </div>
+        <div className="mw7 center ph3 pv4">
+          <div className="flex flex-wrap mhn1">
+            <div className="w-100 w-50-ns ph1-ns">
+              <img src={getAsset(entry.getIn(["data", "main", "image1", "image"]))}/>
+            </div>
+            <div className="w-100 w-50-ns ph1-ns">
+              <img src={getAsset(entry.getIn(["data", "main", "image2", "image"]))}/>
+            </div>
+            <div className="w-100 ph1-ns">
+              <img src={getAsset(entry.getIn(["data", "main", "image3", "image"]))}/>
+            </div>
+          </div>
+        </div>
+      }
 
       <div className="pb4">
         {(entry.getIn(['data', 'testimonials']) || []).map((testimonial, index) => <div className="center mb3 ph3" key={index}>
