@@ -1,15 +1,15 @@
 {{ define "main" }}
 
 <div class="ph3 bg-off-white">
-	<div class="center mw6 pv3">
+	<div class="center mw6">
 
 		<img src="{{ .Params.logo }}" alt="" class="db w5 center pv4">
 
 		{{/* .Content */}}
 
-		<div class="flex-ns mb3 justify-between">
+		<div class="flex-ns justify-between">
 	        	{{ range .Params.contact_entries }}
-				<div>
+				<div class="mb4">
 					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
 					<p>
 						{{ .text }}<br>
