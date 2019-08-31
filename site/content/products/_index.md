@@ -17,6 +17,17 @@ main:
   image3:
     alt: ''
     image: ''
+services:
+  - heading: Podologische Behandlungen
+    text: (medizinische und kosmetische Fusspflege)
+  - heading: Nagelbehandlungen
+    text: (fachgerechtes Kürzen der Nägel)
+  - heading: Entfernen von Hyperkeratosen
+    text: (Hornhaut  und Schwielen)
+  - heading: Entfernung von Clavi
+    text: (Hühneraugen)
+  - heading: Behandeln von Unguis incarnatus
+    text: (eingewachsene Nägel)
 testimonials: []
 full_image: ''
 ---
