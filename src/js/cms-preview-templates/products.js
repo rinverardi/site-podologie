@@ -63,7 +63,9 @@ export default class PostPreview extends React.Component {
         </div>)}
       </div>
 
-      <img src={getAsset(entry.getIn(['data', 'full_image']))} alt="" className="db w-100"/>
+      {entry.getIn(['data', 'full_image']) &&
+        <img src={getAsset(entry.getIn(['data', 'full_image']))} alt="" className="db w-100"/>
+      }
     </div>;
   }
 }
