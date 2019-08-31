@@ -13,13 +13,13 @@ blurb:
 products:
   - image: ''
     text: >-
-      Ich biete podologische Behandlungen an. Nagelbehandlungen, Entfernen von
-      Hornhaut und Schwielen, Entfernung und Behandlung Hühneraugen, Behandlung
-      von eingewachsenen Nägeln, Behandlung von Druckstellen und mehr.
+      Ich biete podologische Behandlungen an: Nagelbehandlungen, Entfernen von
+      Hornhaut, Entfernung von Hühneraugen, Behandlung von eingewachsenen
+      Nägeln, Behandlung von Druckstellen und mehr.
   - image: ''
     text: >-
-      Ich bin spezialisiert auf die Behandlung und Beratung von Risikopatienten,
-      also Personen mit Diabetes mellitus, geschwächtem Immunsystem,
-      Polyneuropathie, PAVK, rheumatischen Erkrankungen.
+      Ich bin spezialisiert auf die Behandlung und Beratung von Risikopatienten:
+      Personen mit Diabetes mellitus, geschwächtem Immunsystem, Polyneuropathie,
+      PAVK, rheumatischen Erkrankungen.
 ---
 
