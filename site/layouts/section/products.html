@@ -22,11 +22,13 @@
     {{ end }}
   </div>
 
-  <div class="pb4">
-    {{ range .Params.testimonials }}
-      {{ partial "blockquote" . }}
-    {{ end }}
-  </div>
+  {{ if .Params.testimonials }}
+    <div class="pb4">
+      {{ range .Params.testimonials }}
+        {{ partial "blockquote" . }}
+      {{ end }}
+    </div>
+  {{ end }}
 
   {{ if .Params.full_image }}
     <img src="{{ .Params.full_image }}" alt="" class="db w-100">
