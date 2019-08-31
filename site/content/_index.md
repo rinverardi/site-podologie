@@ -11,12 +11,12 @@ blurb:
     ich mich, Sie in meiner Podologiepraxis in St. Gallen, St. Georgen begrüssen
     zu dürfen.
 products:
-  - image: /img/void.svg
+  - image: ''
     text: >-
       Ich biete podologische Behandlungen an. Nagelbehandlungen, Entfernen von
       Hornhaut und Schwielen, Entfernung und Behandlung Hühneraugen, Behandlung
       von eingewachsenen Nägeln, Behandlung von Druckstellen und mehr.
-  - image: /img/void.svg
+  - image: ''
     text: >-
       Ich bin spezialisiert auf die Behandlung und Beratung von Risikopatienten,
       also Personen mit Diabetes mellitus, geschwächtem Immunsystem,
