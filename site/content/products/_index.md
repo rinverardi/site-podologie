@@ -23,14 +23,14 @@ main:
     journey. We personally visit each farm to make sure the conditions are
     optimal for the plants, farmers and the local environment.
   image1:
-    alt: Void
-    image: /img/void.svg
+    alt: ''
+    image: ''
   image2:
-    alt: Void
-    image: /img/void.svg
+    alt: ''
+    image: ''
   image3:
-    alt: Void
-    image: /img/void.svg
+    alt: ''
+    image: ''
 testimonials: []
 full_image: ''
 ---
