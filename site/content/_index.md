@@ -10,7 +10,7 @@ blurb:
     Nach über 20-jähriger Berufserfahrung in verschiedenen Podologiepraxen freue
     ich mich, Sie in meiner Podologiepraxis in St. Gallen, St. Georgen begrüssen
     zu dürfen.
-products:
+services:
   - image: ''
     text: >-
       Ich biete podologische Behandlungen an: Nagelbehandlungen, Entfernen von

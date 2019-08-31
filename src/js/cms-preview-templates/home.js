@@ -28,11 +28,11 @@ export default class PostPreview extends React.Component {
             <h2 className="f2 b lh-title mb2">Meine Leistungen</h2>
 
             <div className="flex-ns mhn2-ns mb3">
-              {(entry.getIn(["data", "products"]) || []).map((product, i) => <div className="ph2-ns w-50-ns" key={i}>
-                {product.get("image") && 
-                  <img src={getAsset(product.get("image"))} alt="" className="center db mb3" style={{width: "240px"}}/>
+              {(entry.getIn(["data", "services"]) || []).map((service, i) => <div className="ph2-ns w-50-ns" key={i}>
+                {service.get("image") && 
+                  <img src={getAsset(service.get("image"))} alt="" className="center db mb3" style={{width: "240px"}}/>
                 }
-                <p>{product.get("text")}</p>
+                <p>{service.get("text")}</p>
               </div>)}
             </div>
 

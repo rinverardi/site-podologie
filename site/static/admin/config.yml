@@ -30,7 +30,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Button Text", name: "button_text", widget: string},
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Products", name: products, widget: list, fields: [
+          - {label: "Services", name: "services", widget: list, fields: [
               {label: "Image", name: "image", required: false, widget: "image"},
               {label: "Text", name: "text", widget: "text"}]}
       - file: "site/content/about/_index.md"
@@ -72,9 +72,9 @@ collections: # A list of collections the CMS should be able to edit
               - label: Detail 3/3
                 name: detail2
                 widget: text
-      - file: "site/content/products/_index.md"
-        label: "Products Page"
-        name: "products"
+      - file: "site/content/services/_index.md"
+        label: "Services Page"
+        name: "services"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}

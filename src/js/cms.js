@@ -7,7 +7,7 @@ import styles from "!to-string-loader!css-loader!postcss-loader!sass-loader!../c
 import HomePreview from "./cms-preview-templates/home";
 import AboutPreview from "./cms-preview-templates/about";
 import PostPreview from "./cms-preview-templates/post";
-import ProductsPreview from "./cms-preview-templates/products";
+import ServicesPreview from "./cms-preview-templates/services";
 import PricesPreview from "./cms-preview-templates/prices";
 import ContactPreview from "./cms-preview-templates/contact";
 
@@ -15,7 +15,7 @@ CMS.registerPreviewStyle(styles, { raw: true });
 CMS.registerPreviewTemplate("about", AboutPreview);
 CMS.registerPreviewTemplate("home", HomePreview);
 CMS.registerPreviewTemplate("post", PostPreview);
-CMS.registerPreviewTemplate("products", ProductsPreview);
+CMS.registerPreviewTemplate("services", ServicesPreview);
 CMS.registerPreviewTemplate("prices", PricesPreview);
 CMS.registerPreviewTemplate("contact", ContactPreview);
 CMS.init();
