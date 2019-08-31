@@ -42,6 +42,9 @@ export default class PostPreview extends React.Component {
               <p>{entry.getIn(["data", "main", "description"])}</p>
             </div>
           </div>
+        }
+
+        {entry.getIn(["data", "main", "image1", "image"]) &&
           <div className="mw7 center ph3 pv4">
             <div className="flex flex-wrap mhn1">
               <div className="w-100 w-50-ns ph1-ns">
