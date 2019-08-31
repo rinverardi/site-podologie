@@ -16,6 +16,12 @@
     {{ end }}
   {{ end }}
 
+  <div class="center mw7 pb4 ph3">
+    {{ range $index, $service := .Params.services }}
+      {{ partial "service" $service }}
+    {{ end }}
+  </div>
+
   <div class="pb4">
     {{ range .Params.testimonials }}
       {{ partial "blockquote" . }}
