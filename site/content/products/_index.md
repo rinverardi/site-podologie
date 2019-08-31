@@ -32,6 +32,6 @@ main:
     alt: Void
     image: /img/void.svg
 testimonials: []
-full_image: /img/void.svg
+full_image: ''
 ---
 
