@@ -1,4 +1,6 @@
 <div class="flex-l mhn1-l center mw7">
   <div class="b pt4 w-50-l">{{.heading}}</div>
-  <div class="mb0 pt4 w-50-l">{{.text}}</div>
+  {{ if .text }}
+    <div class="mb0 pt4 w-50-l">{{.text}}</div>
+  {{ end }}
 </div>
