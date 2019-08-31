@@ -17,14 +17,14 @@ export default class PostPreview extends React.Component {
       <Jumbotron image={image} title={entry.getIn(["data", "title"])} />
 
       <div className="bg-off-white pv4">
-        {entry.getIn(["data", "intro", "heading"]) && {
+        {entry.getIn(["data", "intro", "heading"]) &&
           <div className="ph3 mw7 center">
             <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "intro", "heading"])}</h2>
             <p className="mb4 mw6">{entry.getIn(["data", "intro", "description"])}</p>
           </div>
         }
 
-        {entry.getIn(["data", "intro", "blurbs"]) && {
+        {entry.getIn(["data", "intro", "blurbs"]) &&
           <div className="ph3 mw7 center">
             <div className="flex-ns flex-wrap mhn2-ns mb3">
               {(entry.getIn(["data", "intro", "blurbs"]) || []).map((blurb, index) => <div className="ph2-ns w-50-ns mb4" key={index}>
