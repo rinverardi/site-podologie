@@ -1,6 +1,6 @@
 baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
+languageCode = "de-ch"
+languageLang = "ch"
 title = "Podologie Inverardi, St. Gallen-St. Georgen"
 
 # RSS, categories and tags disabled for an easy start
