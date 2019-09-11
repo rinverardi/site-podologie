@@ -24,5 +24,7 @@ about_entries:
       Ich lege grossen Wert auf persönliche und individuelle Behandlungen, nehme
       Ihre Anliegen und Probleme ernst und versuche Ihnen mit meinem Fachwissen
       und meiner Erfahrung die bestmögliche Behandlung anzubieten.
+outro:
+  text1: Patrizia Inverardi
+  text2: Dipl. Podologin HF
 ---
-
