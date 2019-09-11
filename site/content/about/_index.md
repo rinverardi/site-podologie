@@ -25,6 +25,7 @@ about_entries:
       Ihre Anliegen und Probleme ernst und versuche Ihnen mit meinem Fachwissen
       und meiner Erfahrung die bestmögliche Behandlung anzubieten.
 outro:
+  heading: Ich freue mich auf Ihren Besuch!
   text1: Patrizia Inverardi
   text2: Dipl. Podologin HF
 ---
