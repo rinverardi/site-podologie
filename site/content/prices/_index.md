@@ -1,6 +1,6 @@
 ---
 title: Meine Preise
-image: /img/home-jumbotron.jpg
+image: /img/inside-01_1600.jpg
 prices:
   - heading: Fussbehandlung
     price: CHF 97
