@@ -1,7 +1,7 @@
 ---
 title: Podologie Inverardi
 subtitle: ''
-image: /img/home-jumbotron.jpg
+image: /img/inside-01_1600.jpg
 blurb:
   button_link: about
   button_text: Mehr wissen
