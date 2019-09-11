@@ -1,6 +1,6 @@
 ---
 title: Meine Leistungen
-image: /img/home-jumbotron.jpg
+image: /img/inside-00_1600.jpg
 intro:
   blurbs: []
   description: ''
