@@ -7,7 +7,8 @@ const ContactEntry = ({heading, text, detail0, detail1, detail2}) =>
       { text }<br/>
       { detail0 }<br/>
       { detail1 }<br/>
-      { detail2 }
+      { detail2 }<br/>
+      { detail3 }
     </p>
   </div>;
 
