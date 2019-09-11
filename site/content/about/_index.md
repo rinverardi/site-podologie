@@ -1,6 +1,6 @@
 ---
 title: Über mich
-image: /img/home-jumbotron.jpg
+image: /img/inside-01_1600.jpg
 about_entries:
   - heading: Ausbildung
     imageUrl: /img/void.svg
