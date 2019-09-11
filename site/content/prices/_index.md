@@ -1,6 +1,6 @@
 ---
 title: Meine Preise
-image: /img/inside-00_1600.jpg
+image: /img/inside-02_2000.jpg
 prices:
   - heading: Fussbehandlung
     price: CHF 97

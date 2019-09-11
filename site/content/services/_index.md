@@ -1,6 +1,6 @@
 ---
 title: Meine Leistungen
-image: /img/inside-00_1600.jpg
+image: /img/inside-00_2000.jpg
 intro:
   blurbs: []
   description: ''

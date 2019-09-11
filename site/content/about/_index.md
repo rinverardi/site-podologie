@@ -1,6 +1,6 @@
 ---
 title: Über mich
-image: /img/inside-01_1600.jpg
+image: /img/inside-01_2000.jpg
 about_entries:
   - heading: Ausbildung
     imageUrl: /img/void.svg
