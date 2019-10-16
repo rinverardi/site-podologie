@@ -28,7 +28,7 @@ services:
     text: (Hühneraugen)
   - heading: Behandeln von Unguis incarnatus
     text: (eingewachsene Nägel)
-  - heading: Orthonoyxie
+  - heading: Orthonoxie
     text: (Spangentechnik bei eingewachsenen Nägeln)
   - heading: Nagelprothetik
     text: '(künstlicher Ersatz für brüchige, eingerissene oder traumatisierte Nägeln)'
