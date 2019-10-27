@@ -16,7 +16,7 @@ prices:
   - text: Clavus (Hühnerauge)
   - price: CHF 45 bis 75
     text: Hornhautbehandlung
-  - heading: Orthonoxie
+  - heading: Orthonyxie
     price: CHF 45
     text: Klebespangen
   - price: CHF 60
