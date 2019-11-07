@@ -12,12 +12,12 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
 
         <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
 
-        <meta name="description" value="Podologiepraxis in St. Gallen, St. Georgen bietet podologische Behandlungen an. Die Podologin Patrizia Inverardi behandelt Druckstellen, Hornhaut, Hühneraugen, eingewachsene Zehennägel und mehr.">
+        <meta name="description" content="Podologische Praxis in St. Gallen, St. Georgen. Patrizia Inverardi behandelt Druckstellen, Hornhaut, Hühneraugen, eingewachsene Zehennägel und mehr.">
 
 	<!-- Favicons -->
 	<link rel="shortcut icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
@@ -27,7 +27,7 @@
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="business.business">
-	<meta property="og:title" content="Podologie Inverardi, St. Gallen-St. Georgen">
+	<meta property="og:title" content="Podologie Inverardi, St. Gallen, St. Georgen">
 	<meta property="og:url" content="/">
 	<meta property="og:image" content="/img/og-image.jpg">
 
