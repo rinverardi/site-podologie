@@ -67,7 +67,7 @@
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "node-forge": "^0.10.0"
   }
 }
