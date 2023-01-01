@@ -3,18 +3,18 @@ title: Meine Preise
 image: /img/inside-02_2000.jpg
 prices:
   - heading: Fussbehandlung
-    price: CHF 97
+    price: CHF 105
     text: Behandlung normal
   - heading: ''
-    price: CHF 85
+    price: CHF 92
     text: Behandlung klein
-  - price: CHF 110
+  - price: CHF 120
     text: Behandlung gross
   - heading: Teilbehandlung
     price: ''
     text: Eingewachsener Zehennagel
   - text: Clavus (Hühnerauge)
-  - price: CHF 45 bis 75
+  - price: CHF 45 bis 85
     text: Hornhautbehandlung
   - heading: Orthonyxie
     price: CHF 45
@@ -25,14 +25,14 @@ prices:
     text: U-Spange
   - heading: Nagelprothetik
     text: Überzug
-  - price: CHF 40 bis 65
+  - price: CHF 45 bis 65
     text: Nagelersatz ganz oder teilweise
   - heading: Zehenorthese
     text: Zehenkeil
-  - price: CHF 40 bis 75
+  - price: CHF 45 bis 75
     text: Zehenkuppenheber
   - heading: Massage
-    price: CHF 65
+    price: CHF 70
     text: Fuss- und Unterschenkelmassage
   - heading: Nachkontrolle
     price: ''
@@ -43,7 +43,6 @@ notes:
       Stunden im Voraus ab. Sie ersparen sich damit deren Berechnung.
   - text: >-
       Die Grundversicherungen der Krankenkassen übernehmen podologische
-      Behandlungen nicht. Einige Zusatzversicherungen übernehmen die Kosten bei
-      Diabetikern.
+      Behandlungen nicht.
 ---
 

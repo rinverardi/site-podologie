@@ -7,10 +7,8 @@ about_entries:
     text: >-
       Meine Ausbildung zur Podologin habe ich 1999, die Höhere Fachprüfung 2004
       abgeschlossen. Ich bin Prüfungsexpertin Qualifikationsverfahren EFZ und
-      Höhere Fachprüfung HF an der Berufsschule Zofingen und in der
-      Kurskommission der überbetrieblichen Kurse des Schweizerischen
-      Podologenverbandes. An der Berufsschule Zofingen habe ich  über 10 Jahre
-      das Fach Verbandtechnik unterrichtet.
+      Höhere Fachprüfung HF an der Berufsschule Zofingen. An der Berufsschule
+      Zofingen habe ich  über 10 Jahre das Fach Verbandtechnik unterrichtet.
   - heading: Motivation
     imageUrl: /img/void.svg
     text: >-
